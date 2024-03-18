@@ -1,0 +1,122 @@
+5 most favorite tasks
+1.Help resolve billing issues for customers - Assisting customers with billing issues is important for maintaining customer satisfaction and loyalty. It involves problem-solving and communication skills to ensure customers' concerns are addressed promptly and accurately.
+2.Respond to queries on Twitter, Reddit, Hacker News and other 3rd party sites - Engaging with users on various platforms allows for broader outreach and community building. It provides an opportunity to showcase expertise, address concerns, and foster positive relationships with users beyond traditional support channels.
+3.Act as a dedicated CSE for a handful of key customers to ensure their success using Vercel  - Building strong relationships and ensuring success for high-value customers is rewarding and allows for in-depth product knowledge.
+4.Create video tutorials to help teach users a specific feature or use case - This creative task fosters knowledge sharing and empowers users, potentially minimizing future support requests. By encouraging creativity, it facilitates the dissemination of knowledge in an engaging format, which can significantly enhance users' understanding and proficiency with the platform, thus having a lasting impact.
+5.Work with the product team to develop a new feature based on feedback from customers - Working closely with the product team to develop a new feature based on customer feedback directly translates customer needs into tangible product improvements, fostering a sense of ownership and collaboration. This collaboration is rewarding and crucial for the continuous improvement of the platform, enabling a direct impact on shaping its future.
+
+5 least favourite support tasks.
+1.Respond to 50+ support requests via email every day - Handling over 50 support requests via email daily can be draining due to the sheer volume and potential repetitiveness. While addressing these requests is crucial, the overwhelming volume may lead to burnout and decreased effectiveness in delivering quality support.
+2.Find and recruit teammates for the support team - While team building is essential, the recruitment process can be time-consuming and may divert focus from direct customer support activities.
+3.Run ticket review sessions to make sure tone is consistent- Ensuring consistent communication is important, but this task may feel bureaucratic and time-consuming, detracting from more impactful support activities.
+4.Scheduling time-off coverage and collaborating as part of a growing cohesive support team - While necessary for team functionality, scheduling and coverage coordination can be administratively burdensome and detract from more engaging support tasks
+5.Manage a support team - While important for team effectiveness, managing a support team involves administrative duties that may divert focus from direct customer engagement.
+
+2. What do you want to learn or do more of at work?
+
+At work, I'm always eager to learn and grow, especially in ways that help me better connect with our users. First off, I want to get better at understanding what users are really asking for, not just the words they use. Technology is always changing, so I want to keep up with the latest trends and how they affect how we help our customers. Sharing what I know with my teammates and helping them learn is something I really enjoy. I also want to dig into our customer data more to see what problems they're having and fix them before they become big issues. And finally, I want to get better at listening to our users and calming them down when they're upset. That way, I can build better relationships with them and help them out more effectively.
+
+
+3. Describe how you solved a challenge or technical issue that you faced in a previous role (preferably in a previous support role). How did you determine that your solution was successful?
+
+In my role as a Cloud Support Engineer at DigitalOcean, I encountered a situation where a customer reported sluggish performance on their Droplet, affecting their application's functionality. Upon investigation, I discovered that the underlying hypervisor hosting the Droplet was experiencing high CPU steal, potentially impacting the customer's workload. To address this issue, I engaged with the customer to gather comprehensive details about the performance issues they were facing and analyzed CPU usage metrics using DigitalOcean's monitoring tools. Subsequently, I identified a consistent pattern of high CPU steal on the hypervisor, which correlated with the reported instances of sluggishness on the customer's Droplet.
+
+After careful consideration, I concluded that migrating the customer's Droplet to a new hypervisor with lower CPU steal would likely mitigate the performance issues. I discussed the necessity and potential benefits of the migration with the customer and coordinated a maintenance window to execute the migration with minimal disruption to their services. Throughout the migration process, I ensured seamless data and configuration transfer to the new hypervisor, monitoring the progress closely. Following the migration, I conducted post-migration checks and followed up with the customer to confirm the resolution of the performance issues and improved application responsiveness.
+
+Ultimately, the success of the solution was validated through direct feedback from the customer, confirming the resolution of the performance issues post-migration. Continuous monitoring of Droplet performance metrics on the new hypervisor ensured sustained improvements, and ongoing communication with the customer allowed for prompt resolution of any emerging concerns
+
+4. When would you choose to use Edge Functions, Serverless Functions, or Edge Middleware with Vercel?
+
+When deciding between Edge Functions, Serverless Functions, or Edge Middleware on Vercel, it's important to consider the specific needs of the project and what outcomes you're aiming for in terms of performance, scalability, and customization.
+
+If I'm looking to run small JavaScript functions as close to the end-user as possible to minimize latency and boost performance, I would opt for Edge Functions. These are great for tasks like customizing static content, dynamic routing, or handling requests before they're cached.
+
+On the other hand, if scalability is a top priority and I need server-side code execution on Vercel's Managed Infrastructure, then Serverless Functions would be my choice. They're scalable and can interact with various resources like APIs and databases, making them perfect for tasks such as processing streaming data, authentication, or general backend tasks.
+
+Lastly, if I want to have more control over how requests are handled or responses are generated at the edge, I would go for Edge Middleware. It allows for executing custom logic, URL rewriting, request redirection, and modifying headers before sending back a response. This is particularly useful for tasks like customizing static content, enhancing security, or optimizing performance based on incoming requests.
+
+Edge Functions are best for lightweight tasks close to users, Serverless Functions offer scalability for backend logic, and Edge Middleware provides customization and control over request handling and response generation at the edge.
+
+5. Imagine a customer writes in requesting help with a build issue on a framework or technology that you've not seen before. How would you begin troubleshooting this and what questions would you ask the customer to understand the situation better?
+
+If faced with a build issue on an unfamiliar framework or technology, my approach would be to systematically troubleshoot the problem while gathering relevant information from the customer. Firstly, I would request detailed information from the customer, including error messages, logs, and the steps they've taken so far to address the issue.
+
+Next, I would ask the customer to specify the framework or technology they're using, along with its version and any relevant dependencies. Understanding the technology stack involved would be crucial for conducting effective research and diagnosing the issue.If feasible, I would ask the customer to provide steps to reproduce the problem on my end. This would allow me to observe the issue firsthand and gain a better understanding of its context.
+
+While investigating the unfamiliar framework or technology, I would consult official documentation, forums, and community resources to gain insights into its architecture, common issues, and troubleshooting techniques.
+
+To narrow down the scope of the issue, I would attempt to isolate specific components or configurations that might be contributing to the build problem. This could involve analyzing the project structure, build scripts, and dependencies.
+
+Throughout the troubleshooting process, I would ask the customer clarifying questions to gather additional context and insights. These questions might include specifics about error messages, the development environment, recent changes to the project, and successful builds on alternative environments.
+
+Based on the information gathered and my understanding of the issue, I would propose potential solutions or workaround strategies for the customer to try. I would iterate on these solutions, collaborating with the customer to gather feedback and refine the troubleshooting process until a resolution is reached.
+
+6. The customer from question 5 replies to your response with the below: “I’m so frustrated. I’ve been trying to make this work for hours and I just can’t figure it out. It must be a platform issue so just fix it for me instead of asking me questions.” Please write a follow-up reply to the customer.
+
+Hi there,  
+
+Thank you for getting back to us!
+
+I empathize deeply with the frustration you're experiencing while grappling with a technical issue, especially after dedicating significant time to resolving it independently. Your frustration is completely understandable, and I want to assure you that I'm here to support you through this challenge.
+
+When faced with persistent problems, it's natural to seek a quick solution, but my priority is to assist you in the most effective way possible. By addressing the issue comprehensively and finding a lasting solution, we can ensure a smoother experience moving forward.
+
+While it may initially seem like a platform-related concern, understanding the specific details of your environment and the nature of the problem is crucial for us to provide tailored support. By asking questions and gathering information, we can narrow down the possibilities and devise the best strategy for your unique situation.
+
+I completely respect your preference for a more hands-on approach, and if you're comfortable providing access to your environment or any additional details, I'm more than willing to take the lead and work directly on resolving the issue for you.
+
+Your satisfaction is my top priority, and I'm fully committed to assisting you in overcoming this challenge and getting your project back on track. Please let me know how you'd like to proceed, and rest assured that I'm here to support you every step of the way.
+
+Thank you for your patience and understanding.
+
+Warm regards,
+Akhilesh PN 
+Vercel Support
+
+7. A customer writes in to the Helpdesk asking "How do I do a redirect from the /blog path to https://example.com?" Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+
+Hello there,
+
+Thank you for reaching out to us for assistance with your redirection query. I understand you want to redirect visitors from the /blog path of your current website to https://example.com. Here’s how you can accomplish this, depending on the server you are using:
+
+If You Are Using Apache Modify the .htaccess File: Apache servers use the .htaccess file for redirection. You'll need to add the following lines to the .htaccess file in the root directory of your website:
+
+RewriteEngine On
+RewriteRule ^blog$ https://example.com [R=301,L]
+
+This directive permanently redirects (301) all requests from /blog to https://example.com.
+
+If You Are Using Nginx Edit the Nginx Configuration File: For Nginx, you'll need to modify the server configuration. Open the Nginx configuration file for your site (often found at /etc/nginx/sites-available/yourdomain.conf) and add the following inside the server block
+
+location = /blog {
+    return 301 https://example.com;
+}
+
+This configuration redirects all traffic from /blog to https://example.com with a 301 (permanent) redirect.
+
+Testing Your Redirection, After applying the changes based on your server type, don’t forget to restart the Apache or Nginx server for the changes to take effect.
+
+You can restart Apache with sudo systemctl restart apache2 on most Linux distributions, or restart Nginx with sudo systemctl restart nginx.
+
+Finally, test the redirection by visiting /blog on your website to see if it redirects correctly to https://example.com.
+
+Please, replace https://example.com with your actual domain name where necessary. 
+
+If you have any questions or encounter any issues during the process, feel free to reply to this email for further assistance.
+
+Warm regards,
+Akhilesh PN
+Vercel support 
+
+
+
+evaluated the customer's request to redirect the /blog path to another URL, offering various implementation methods tailored to diverse website configurations and platforms. provided straightforward and precise instructions to help the customer achieve the desired redirection efficiently. Emphasizing the significance of thorough testing, ensured that the redirect functions properly post-implementation.the  response was designed to be customer-friendly and inviting, encouraging additional communication if required
+
+
+
+8.A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
+
+
+
+
+
