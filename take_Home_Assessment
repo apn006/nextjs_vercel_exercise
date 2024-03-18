@@ -116,6 +116,51 @@ evaluated the customer's request to redirect the /blog path to another URL, offe
 
 8.A customer is creating a site and would like their project not to be indexed by search engines. Please write a reply to the customer. Feel free to add any information about your decision making process after the reply.
 
+Hi there, 
+
+Thank you for reaching out to us regarding your project and your request to prevent it from being indexed by search engines. We understand the importance of maintaining privacy and control over your project's visibility.
+To ensure that your site remains unindexed by search engines, we recommend implementing the following measures:
+
+Robots.txt File: You can create a robots.txt file and place it at the root of your project. This file allows you to specify directives instructing search engine crawlers not to index your site.
+
+Meta Tags: Including meta tags in the head section of your HTML pages provides further instructions to search engine crawlers. Adding a meta tag with the "noindex" directive will explicitly tell search engines not to index the page.
+Here's an example of how you can add this meta tag:
+
+<meta name="robots" content="noindex">
+
+For more detailed information on implementing these measures, you can refer to the following resources:
+
+Guide on Meta Tags for SEO in Next.js - https://nextjs.org/learn-pages-router/seo/crawling-and-indexing/metatags
+Vercel's Guide on Search Engine Indexing for Preview Deployments - https://vercel.com/guides/are-vercel-preview-deployment-indexed-by-search-engines
+
+By default, our Preview Deployments on Vercel are configured with the X-Robots-Tag HTTP header set to "noindex." This means that search engines are instructed not to crawl and index your website during its development and preview stages.
+
+However, if you are using a Custom Domain for your preview deployments and wish to override this default behavior, we have provided methods for you to manually inject the X-Robots-Tag: noindex header. Depending on your framework, you can utilize built-in methods or modify configuration files to achieve this.
+
+If you require further assistance or have any questions regarding the implementation of these measures, please don't hesitate to reach out to us. We're here to support you throughout your website development journey.
+
+Best regards,
+Akhilesh PN
+Vercel Support
+
+
+The decision-making process involved identifying the customer's request for non-indexing, recommending specific measures like robots.txt and meta tags, providing relevant resources for implementation, addressing platform-specific considerations, and offering ongoing support to ensure successful website development.
+
+
+
+9. What do you think is one of the most common problems which customers ask Vercel for help with? How would you help customers to overcome common problems, short-term and long-term?
+
+I assume that one of the most common issues customers seek assistance from Vercel for is troubleshooting deployment challenges and optimizing web application performance. In the short term, my focus would be on providing swift and detailed technical support, delivering personalized solutions to promptly address any deployment obstacles customers encounter. Additionally, I would arrange guided setup sessions tailored to individual needs to ensure a smooth onboarding experience. Furthermore, I would direct customers to Vercel's extensive documentation and knowledge base, empowering them to independently resolve issues and effectively navigate challenges.
+
+
+Looking towards the long term, I would concentrate on enriching educational resources to deepen customers' comprehension of Vercel's platform and deployment best practices. This could involve developing comprehensive tutorials, organizing webinars, and hosting workshops to tackle common pain points and educate customers on advanced features. Establishing a vibrant online community where customers can exchange insights, seek advice, and collaborate would also be crucial. By fostering this collaborative environment, customers can not only receive ongoing support but also contribute to each other's learning and growth. Furthermore, I would prioritize continuous platform enhancement based on customer feedback, utilizing insights to refine Vercel's offerings, enhance user experience, and proactively address emerging challenges. This iterative approach ensures that customers receive both immediate assistance and long-term support, enabling them to maximize success with Vercel.
+
+
+10. How could we improve or alter this familiarisation exercise?
+
+One recommendation I would suggest is to incorporate more real-world scenario-type questions that mirror the challenges typically faced in a Vercel support role. Another suggestion would be to include additional resources by providing supplementary materials or documentation links within the exercise. These resources would assist participants in completing the tasks, particularly those who may have limited familiarity with Vercel or the related technologies.
+
+
 
 
 
